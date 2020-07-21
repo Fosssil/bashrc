@@ -4,7 +4,7 @@ Note: This script is for KDE NEON users only. In future I will oher distribution
 There is noting much hypocratic just a bunch of custom made 'alias' commands to type less.
 
 Installation Guide:
-1. Move the .bashrc file from the current location to home folder and happy happy linuxing.
+1. Move the bashrc(rename bashrc to .bashrc and then move) file from the current location to home folder and happy happy linuxing.
 
 Contact:
 sagardahiya@tuta.io
