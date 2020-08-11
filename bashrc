@@ -123,7 +123,7 @@ alias plz="sudo"
 # it will save a lot of brain memory and typig work
 # refresh to update repos. 
 # its simple
-alias refresh="sudo apt update && pkcon refresh"
+alias refresh="sudo apt update && pkcon refresh && apt list --upgradable"
 # active an update to KDE NEON only 
 # it will work after updating repos
 alias update="sudo pkcon update"
@@ -138,3 +138,7 @@ alias fix="sudo apt --fix-broken install"
 # we don't have to write a long command while installing <.deb> files.
 # helpful in destroying brain cells.
 alias install="sudo dpkg -i"
+#to run the snap version of vlc
+alias vlc="snap run vlc"
+#list of avaliable kernels
+alias kernels="sudo dpkg --list | egrep -i --color 'linux-image|linux-headers'"
